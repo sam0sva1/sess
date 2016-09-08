@@ -1,0 +1,43 @@
+2016-09-08T22:32:52.095287000 0.844518s notice: Recursively removing directory /Users/sam0sval/Desktop/Code/session-server/rethinkdb_data/tmp
+2016-09-08T22:32:52.096834000 0.846072s notice: Initializing directory /Users/sam0sval/Desktop/Code/session-server/rethinkdb_data
+2016-09-08T22:32:52.096967000 0.846214s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/sam0sval/Desktop/Code/session-server/rethinkdb_data' did not already exist or is empty.)
+2016-09-08T22:32:52.097044000 0.846275s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-09-08T22:32:52.261768000 1.011000s notice: Running on Darwin 14.5.0 x86_64
+2016-09-08T22:32:52.261862000 1.011093s notice: Loading data from directory /Users/sam0sval/Desktop/Code/session-server/rethinkdb_data
+2016-09-08T22:32:53.271947000 2.021222s info: Automatically using cache size of 100 MB
+2016-09-08T22:32:53.271959000 2.021234s warn: Cache size does not leave much memory for server and query overhead (available memory: 575 MB).
+2016-09-08T22:32:53.271976000 2.021251s warn: Cache size is very low and may impact performance.
+2016-09-08T22:32:53.272569000 2.021844s notice: Listening for intracluster connections on port 29015
+2016-09-08T22:32:53.274045000 2.023320s notice: Listening for client driver connections on port 28015
+2016-09-08T22:32:53.274169000 2.023444s notice: Listening for administrative HTTP connections on port 8080
+2016-09-08T22:32:53.274172000 2.023447s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-09-08T22:32:53.274179000 2.023454s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-09-08T22:32:53.274181000 2.023456s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-09-08T22:32:53.274186000 2.023461s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-09-08T22:32:53.274191000 2.023466s notice: Server ready, "Sam0sval_local_4bs" 21515abc-2635-44d1-a7d4-09f838004e58
+2016-09-08T22:33:02.119182000 10.868681s notice: Server got SIGINT from pid 11304, uid 501; shutting down...
+2016-09-08T22:33:02.119307000 10.868806s notice: Shutting down client connections...
+2016-09-08T22:33:02.119465000 10.868964s notice: All client connections closed.
+2016-09-08T22:33:02.119478000 10.868977s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-08T22:33:02.156498000 10.905998s notice: Storage engine shut down.
+2016-09-08T22:33:14.520821000 0.007865s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-09-08T22:33:14.524708000 0.011750s notice: Running on Darwin 14.5.0 x86_64
+2016-09-08T22:33:14.524762000 0.011801s notice: Loading data from directory /Users/sam0sval/Desktop/Code/session-server/rethinkdb_data
+2016-09-08T22:33:14.900875000 0.387915s info: Automatically using cache size of 100 MB
+2016-09-08T22:33:14.900885000 0.387924s warn: Cache size does not leave much memory for server and query overhead (available memory: 567 MB).
+2016-09-08T22:33:14.900891000 0.387930s warn: Cache size is very low and may impact performance.
+2016-09-08T22:33:14.901477000 0.388517s notice: Listening for intracluster connections on port 29015
+2016-09-08T22:33:14.902962000 0.390002s notice: Listening for client driver connections on port 28015
+2016-09-08T22:33:14.903094000 0.390134s notice: Listening for administrative HTTP connections on port 8080
+2016-09-08T22:33:14.903097000 0.390136s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-09-08T22:33:14.903102000 0.390142s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-09-08T22:33:14.903104000 0.390144s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-09-08T22:33:14.903109000 0.390149s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-09-08T22:33:14.903114000 0.390154s notice: Server ready, "Sam0sval_local_4bs" 21515abc-2635-44d1-a7d4-09f838004e58
+2016-09-08T22:36:46.200889000 211.692762s info: Table 0ce6c2bd-4bb9-44d1-926c-0166524d2cb5: Starting a new Raft election for term 1.
+2016-09-08T22:36:46.218261000 211.710135s info: Table 0ce6c2bd-4bb9-44d1-926c-0166524d2cb5: Added replica on this server.
+2016-09-08T22:36:46.612732000 212.104651s info: Table 0ce6c2bd-4bb9-44d1-926c-0166524d2cb5: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-08T22:53:28.862286000 1214.377249s info: Table 7d0bdad8-4958-46a3-b00f-baa89c08681b: Starting a new Raft election for term 1.
+2016-09-08T22:53:28.862855000 1214.377817s info: Table 7d0bdad8-4958-46a3-b00f-baa89c08681b: Added replica on this server.
+2016-09-08T22:53:29.140295000 1214.655263s info: Table 7d0bdad8-4958-46a3-b00f-baa89c08681b: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-08T22:53:31.583832000 1217.098844s info: Table 7d0bdad8-4958-46a3-b00f-baa89c08681b: Configuration is changing.

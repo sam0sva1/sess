@@ -1,7 +1,10 @@
+console.log('Cookie', document.cookie);
 var logOutButton = document.getElementById('logOutButton');
 
 var onButtonClickHandler = function() {
-	//sender('/logout', {});
+	sender('/logout', {});
+	return location.href = '/';
 };
 
-signUpButton.onclick = onButtonClickHandler;
+logOutButton.onclick = onButtonClickHandler;
+console.log(document.cookie);
